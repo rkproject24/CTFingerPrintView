@@ -38,3 +38,7 @@ Use CTFingerPrintAnimatedView in your project to show an animated finger print
 Demo
 =====
 A demo project 'FingerPrintDemo' is included.
+
+* Tap to highlight
+* Swipe up to change the animation.
+
