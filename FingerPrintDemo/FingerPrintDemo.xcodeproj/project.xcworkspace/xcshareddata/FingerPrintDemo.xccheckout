@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>EDC4098F-425C-4D24-BAC4-320EC8107A63</string>
+	<key>IDESourceControlProjectName</key>
+	<string>FingerPrintDemo</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>5362A4CE7D3633B7D49EEE50E962FF32DB84CE5B</key>
+		<string>https://github.com/Collect3/CTFingerPrintView.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>FingerPrintDemo/FingerPrintDemo.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>5362A4CE7D3633B7D49EEE50E962FF32DB84CE5B</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Collect3/CTFingerPrintView.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>5362A4CE7D3633B7D49EEE50E962FF32DB84CE5B</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>5362A4CE7D3633B7D49EEE50E962FF32DB84CE5B</string>
+			<key>IDESourceControlWCCName</key>
+			<string>CTFingerPrintView</string>
+		</dict>
+	</array>
+</dict>
+</plist>

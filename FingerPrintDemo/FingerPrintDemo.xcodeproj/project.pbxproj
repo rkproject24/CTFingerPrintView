@@ -1,0 +1,456 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B571322819E3456900CCB7A8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B571322719E3456900CCB7A8 /* main.m */; };
+		B571322B19E3456900CCB7A8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B571322A19E3456900CCB7A8 /* AppDelegate.m */; };
+		B571322E19E3456900CCB7A8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B571322D19E3456900CCB7A8 /* ViewController.m */; };
+		B571323119E3456900CCB7A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B571322F19E3456900CCB7A8 /* Main.storyboard */; };
+		B571323319E3456900CCB7A8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B571323219E3456900CCB7A8 /* Images.xcassets */; };
+		B571323619E3456900CCB7A8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B571323419E3456900CCB7A8 /* LaunchScreen.xib */; };
+		B571324219E3456900CCB7A8 /* FingerPrintDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B571324119E3456900CCB7A8 /* FingerPrintDemoTests.m */; };
+		B571325419E3457A00CCB7A8 /* CTFingerPrintGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = B571324D19E3457A00CCB7A8 /* CTFingerPrintGenerator.m */; };
+		B571325519E3457A00CCB7A8 /* CTFingerPrintAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = B571324F19E3457A00CCB7A8 /* CTFingerPrintAnimatedView.m */; };
+		B571325619E3457A00CCB7A8 /* CTFingerPrintView.m in Sources */ = {isa = PBXBuildFile; fileRef = B571325119E3457A00CCB7A8 /* CTFingerPrintView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B571323C19E3456900CCB7A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B571321A19E3456900CCB7A8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B571322119E3456900CCB7A8;
+			remoteInfo = FingerPrintDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B571322219E3456900CCB7A8 /* FingerPrintDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FingerPrintDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B571322619E3456900CCB7A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B571322719E3456900CCB7A8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B571322919E3456900CCB7A8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B571322A19E3456900CCB7A8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B571322C19E3456900CCB7A8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B571322D19E3456900CCB7A8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B571323019E3456900CCB7A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B571323219E3456900CCB7A8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B571323519E3456900CCB7A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		B571323B19E3456900CCB7A8 /* FingerPrintDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FingerPrintDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B571324019E3456900CCB7A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B571324119E3456900CCB7A8 /* FingerPrintDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FingerPrintDemoTests.m; sourceTree = "<group>"; };
+		B571324C19E3457A00CCB7A8 /* CTFingerPrintGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTFingerPrintGenerator.h; sourceTree = "<group>"; };
+		B571324D19E3457A00CCB7A8 /* CTFingerPrintGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTFingerPrintGenerator.m; sourceTree = "<group>"; };
+		B571324E19E3457A00CCB7A8 /* CTFingerPrintAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTFingerPrintAnimatedView.h; sourceTree = "<group>"; };
+		B571324F19E3457A00CCB7A8 /* CTFingerPrintAnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTFingerPrintAnimatedView.m; sourceTree = "<group>"; };
+		B571325019E3457A00CCB7A8 /* CTFingerPrintView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTFingerPrintView.h; sourceTree = "<group>"; };
+		B571325119E3457A00CCB7A8 /* CTFingerPrintView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTFingerPrintView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B571321F19E3456900CCB7A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B571323819E3456900CCB7A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B571321919E3456900CCB7A8 = {
+			isa = PBXGroup;
+			children = (
+				B571324B19E3457A00CCB7A8 /* CTFingerPrintView */,
+				B571322419E3456900CCB7A8 /* FingerPrintDemo */,
+				B571323E19E3456900CCB7A8 /* FingerPrintDemoTests */,
+				B571322319E3456900CCB7A8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B571322319E3456900CCB7A8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B571322219E3456900CCB7A8 /* FingerPrintDemo.app */,
+				B571323B19E3456900CCB7A8 /* FingerPrintDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B571322419E3456900CCB7A8 /* FingerPrintDemo */ = {
+			isa = PBXGroup;
+			children = (
+				B571322919E3456900CCB7A8 /* AppDelegate.h */,
+				B571322A19E3456900CCB7A8 /* AppDelegate.m */,
+				B571322C19E3456900CCB7A8 /* ViewController.h */,
+				B571322D19E3456900CCB7A8 /* ViewController.m */,
+				B571322F19E3456900CCB7A8 /* Main.storyboard */,
+				B571323219E3456900CCB7A8 /* Images.xcassets */,
+				B571323419E3456900CCB7A8 /* LaunchScreen.xib */,
+				B571322519E3456900CCB7A8 /* Supporting Files */,
+			);
+			path = FingerPrintDemo;
+			sourceTree = "<group>";
+		};
+		B571322519E3456900CCB7A8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B571322619E3456900CCB7A8 /* Info.plist */,
+				B571322719E3456900CCB7A8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B571323E19E3456900CCB7A8 /* FingerPrintDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				B571324119E3456900CCB7A8 /* FingerPrintDemoTests.m */,
+				B571323F19E3456900CCB7A8 /* Supporting Files */,
+			);
+			path = FingerPrintDemoTests;
+			sourceTree = "<group>";
+		};
+		B571323F19E3456900CCB7A8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B571324019E3456900CCB7A8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B571324B19E3457A00CCB7A8 /* CTFingerPrintView */ = {
+			isa = PBXGroup;
+			children = (
+				B571324C19E3457A00CCB7A8 /* CTFingerPrintGenerator.h */,
+				B571324D19E3457A00CCB7A8 /* CTFingerPrintGenerator.m */,
+				B571324E19E3457A00CCB7A8 /* CTFingerPrintAnimatedView.h */,
+				B571324F19E3457A00CCB7A8 /* CTFingerPrintAnimatedView.m */,
+				B571325019E3457A00CCB7A8 /* CTFingerPrintView.h */,
+				B571325119E3457A00CCB7A8 /* CTFingerPrintView.m */,
+			);
+			name = CTFingerPrintView;
+			path = ../CTFingerPrintView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B571322119E3456900CCB7A8 /* FingerPrintDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B571324519E3456900CCB7A8 /* Build configuration list for PBXNativeTarget "FingerPrintDemo" */;
+			buildPhases = (
+				B571321E19E3456900CCB7A8 /* Sources */,
+				B571321F19E3456900CCB7A8 /* Frameworks */,
+				B571322019E3456900CCB7A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FingerPrintDemo;
+			productName = FingerPrintDemo;
+			productReference = B571322219E3456900CCB7A8 /* FingerPrintDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B571323A19E3456900CCB7A8 /* FingerPrintDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B571324819E3456900CCB7A8 /* Build configuration list for PBXNativeTarget "FingerPrintDemoTests" */;
+			buildPhases = (
+				B571323719E3456900CCB7A8 /* Sources */,
+				B571323819E3456900CCB7A8 /* Frameworks */,
+				B571323919E3456900CCB7A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B571323D19E3456900CCB7A8 /* PBXTargetDependency */,
+			);
+			name = FingerPrintDemoTests;
+			productName = FingerPrintDemoTests;
+			productReference = B571323B19E3456900CCB7A8 /* FingerPrintDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B571321A19E3456900CCB7A8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Collect3 Pty Ltd";
+				TargetAttributes = {
+					B571322119E3456900CCB7A8 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					B571323A19E3456900CCB7A8 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = B571322119E3456900CCB7A8;
+					};
+				};
+			};
+			buildConfigurationList = B571321D19E3456900CCB7A8 /* Build configuration list for PBXProject "FingerPrintDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B571321919E3456900CCB7A8;
+			productRefGroup = B571322319E3456900CCB7A8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B571322119E3456900CCB7A8 /* FingerPrintDemo */,
+				B571323A19E3456900CCB7A8 /* FingerPrintDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B571322019E3456900CCB7A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B571323119E3456900CCB7A8 /* Main.storyboard in Resources */,
+				B571323619E3456900CCB7A8 /* LaunchScreen.xib in Resources */,
+				B571323319E3456900CCB7A8 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B571323919E3456900CCB7A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B571321E19E3456900CCB7A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B571325619E3457A00CCB7A8 /* CTFingerPrintView.m in Sources */,
+				B571325519E3457A00CCB7A8 /* CTFingerPrintAnimatedView.m in Sources */,
+				B571322E19E3456900CCB7A8 /* ViewController.m in Sources */,
+				B571322B19E3456900CCB7A8 /* AppDelegate.m in Sources */,
+				B571322819E3456900CCB7A8 /* main.m in Sources */,
+				B571325419E3457A00CCB7A8 /* CTFingerPrintGenerator.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B571323719E3456900CCB7A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B571324219E3456900CCB7A8 /* FingerPrintDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B571323D19E3456900CCB7A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B571322119E3456900CCB7A8 /* FingerPrintDemo */;
+			targetProxy = B571323C19E3456900CCB7A8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B571322F19E3456900CCB7A8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B571323019E3456900CCB7A8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B571323419E3456900CCB7A8 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B571323519E3456900CCB7A8 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B571324319E3456900CCB7A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B571324419E3456900CCB7A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B571324619E3456900CCB7A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FingerPrintDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B571324719E3456900CCB7A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FingerPrintDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B571324919E3456900CCB7A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FingerPrintDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FingerPrintDemo.app/FingerPrintDemo";
+			};
+			name = Debug;
+		};
+		B571324A19E3456900CCB7A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FingerPrintDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FingerPrintDemo.app/FingerPrintDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B571321D19E3456900CCB7A8 /* Build configuration list for PBXProject "FingerPrintDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B571324319E3456900CCB7A8 /* Debug */,
+				B571324419E3456900CCB7A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B571324519E3456900CCB7A8 /* Build configuration list for PBXNativeTarget "FingerPrintDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B571324619E3456900CCB7A8 /* Debug */,
+				B571324719E3456900CCB7A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B571324819E3456900CCB7A8 /* Build configuration list for PBXNativeTarget "FingerPrintDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B571324919E3456900CCB7A8 /* Debug */,
+				B571324A19E3456900CCB7A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B571321A19E3456900CCB7A8 /* Project object */;
+}
